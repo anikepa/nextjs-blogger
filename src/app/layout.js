@@ -2,7 +2,7 @@ import Navbar from '@/component/navbar/Navbar'
 import './globals.css'
 import { Inter, Roboto, Poppins } from 'next/font/google'
 import Footer from '@/component/footer/Footer'
-import { ThemeProvider } from '../../ContextAPI/ThemeContext'
+import { ThemeProvider } from '../ContextAPI/ThemeContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
