@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 2vmax;
+    margin-bottom:2vw;
+  }
+  .mainContainer{
+    font-display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+  }
+  
+  .image{
+    height: 25vw;
+    width: 28vw;
+
+    object-fit: cover;
+  }
+  
+  .content {
+  }
+  
+  .title{
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    text-transform: capitalize;
+  }
+  
+  .desc{
+    font-size:1.5vw;
+    color: #999;
+  }

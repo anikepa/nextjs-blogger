@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid #53c28b70;
+    border-radius: 34px;
+    position: relative;
+    height: 24px;
+    padding: 2px;
+    cursor: pointer;
+    width: 42px;
+    position: relative;
+}
+.icon{
+    font-size: 12px;
+}
+.dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #53c28b;
+
+    
+}
